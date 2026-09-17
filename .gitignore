@@ -1,0 +1,10 @@
+*.elf
+*.bin
+*.hex
+*.map
+.pio/
+.vscode/
+build/
+*.pyc
+.DS_Store
+Thumbs.db
