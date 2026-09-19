@@ -43,8 +43,3 @@ ESP32 tabanlı kameralı geliştirme kartları (ESP32-CAM, ESP-EYE, M5Stack, XIA
 | `camera_pins.h` | Farklı kart modelleri için pin tanımlamaları |
 | `camera_index.h` | Web arayüzünün HTML/JS içeriği |
 | `partitions.csv` | ESP32 flash bellek bölümleme tablosu |
-
-## Notlar
-
-- WiFi bilgilerini kod içine yazmak yerine ortam değişkeni veya ayrı bir config dosyası kullanmak, bu bilgileri yanlışlıkla GitHub'a yüklememek açısından daha güvenlidir.
-- PSRAM olmayan kartlarda çözünürlük otomatik olarak düşürülür (SVGA).
